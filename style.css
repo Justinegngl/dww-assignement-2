@@ -1,0 +1,49 @@
+html { 
+  background: url(https://www.canald.com/polopoly_fs/1.1451274.1415711645!/image/nasa-space-pictures-hd-hd-widescreen-11.jpg_gen/derivatives/cd_796_449/nasa-space-pictures-hd-hd-widescreen-11.jpg) no-repeat center center fixed;
+  /* set a background image to the html element (= our whole page) centered horizontally and vertically */
+  
+  background-size: cover;
+  /* adapt the size of the background image but keeps its ratio */
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  
+}
+
+#selectdate {
+  color: white;
+  display:flex;
+}
+
+#selectdate > input {
+  margin: 0 10px;
+}
+
+
+.meteorit {
+  color: white;
+  background-color: #22222266;
+        padding: 15px;
+        border-radius: 7px;
+        font-family: 'Lobster', cursive;
+  margin: 1em auto;
+}
+.metorit > h5 {
+  color: white;
+}
+.metorit > li {
+  color: white;
+}
+
+#data {
+      display: flex;
+    flex-wrap: wrap;
+}
+
+#bouton {
+  color: white;
+}

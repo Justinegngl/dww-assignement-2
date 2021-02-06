@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Second assignment</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Meteorites Registered By Nasa</h1> <br/><br/>
+      </div>
+      <div id="selectdate" class="row">
+        <label for="startdate">Meteorites fallen between :   </label>
+        <input type="date" id="startdate" name="startdate" />
+        <label for="enddate">and:</label>
+        <input type="date" id="enddate" name="enddate" />
+        <input type="submit" value="search" id="bouton" onclick="showmeteorite()" />
+      </div>
+      <div id="data" class="row"> 
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
